@@ -19,7 +19,7 @@ function renderNumber(text) {
 }
 
 function getAppVersion() {
-    document.getElementById("appVersion").innerHTML = "1.0.0";
+    document.getElementById("appVersion").innerHTML = "1.1.0";
 } 
 
 function init() {
