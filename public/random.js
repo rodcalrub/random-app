@@ -10,7 +10,7 @@ function clearAll() {
 //     return 9;
 // }
 
-function generateRandomNumber_Version2() {
+function generateRandomNumber() {
     return Math.floor(Math.random() * 10);
 }
 
