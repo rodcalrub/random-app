@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "test": "mocha",
-    "coverage": "nyc --reporter=html mocha"
+    "coverage": "nyc --reporter=html mocha",
+    "coverage:ci": "nyc --reporter=teamcity mocha"
   },
   "author": "Pedro J. Molina",
   "license": "MIT",
