@@ -1,4 +1,4 @@
-FROM node:10.14.1
+FROM node:15.11.0-buster-slim
 ENV PORT=5000
 EXPOSE 5000
 
