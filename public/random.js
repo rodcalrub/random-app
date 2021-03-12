@@ -7,12 +7,9 @@ function clearAll() {
 }
 
 function generateRandomNumber() {
-    return 9;
+    // return 9;
+    return Math.floor(Math.random() * 10);
 }
-
-// function generateRandomNumber() {
-//     return Math.floor(Math.random() * 10);
-// }
 
 function renderNumber(text) {
     document.getElementById("generado").innerHTML = text;

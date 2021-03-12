@@ -1,5 +1,6 @@
-const Calc = require("../calc");
 const expect = require("chai").expect;
+const Calc = require("../calc");
+
 
 describe("Calc should", () => {
     const sut = new Calc();

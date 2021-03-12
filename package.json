@@ -13,13 +13,13 @@
   "author": "Pedro J. Molina",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.16.4"
+    "express": "^4.17.1"
   },
   "devDependencies": {
-    "chai": "^4.2.0",
-    "mocha": "^5.2.0",
+    "chai": "^4.3.3",
+    "mocha": "^8.3.2",
     "mocha-teamcity-reporter": "^3.0.0",
-    "nyc": "^13.1.0",
-    "snyk": "^1.117.1"
+    "nyc": "^15.1.0",
+    "snyk": "^1.483.0"
   }
 }
