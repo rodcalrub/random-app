@@ -7,8 +7,8 @@ function clearAll() {
 }
 
 function generateRandomNumber() {
-    return 9;
-    // return Math.floor(Math.random() * 10);
+    // return 9;
+    return Math.floor(Math.random() * 10);
 }
 
 function renderNumber(text) {
@@ -16,9 +16,11 @@ function renderNumber(text) {
 }
 
 function getAppVersion() {
-    document.getElementById("appVersion").innerHTML = "1.2.0";
+    document.getElementById("appVersion").innerHTML = "1.3.0";
 } 
 
 function init() {
     getAppVersion();
 }
+
+// module.exports = generateRandomNumber;
