@@ -36,5 +36,5 @@ variable "key_name" {
 
 variable "portainer_passwd" {
   description = "Portainer admin passwd"
-  type = string
+  type        = string
 }

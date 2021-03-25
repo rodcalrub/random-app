@@ -57,8 +57,8 @@ EOF
       # "sudo docker run -d --name Alea -p 80:80 rodrasna/alea",
       "npm install",
       "npm start",
-      "echo -n ${var.portainer_passwd} > /tmp/portainer_passwd",
-      "docker run -d --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/portainer_passwd:/tmp/portainer_passwd portainer/portainer-ce --admin-password-file /tmp/portainer_passwd",
+      "sudo echo -n ${var.portainer_passwd} > /tmp/portainer_passwd",
+      "sudo docker run -d --name portainer -p 9000:9000 -v /var/run/docker.sock:/var/run/docker.sock -v /tmp/portainer_passwd:/tmp/portainer_passwd portainer/portainer-ce --admin-password-file /tmp/portainer_passwd",
     ]
   }
 
